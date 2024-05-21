@@ -9,7 +9,7 @@ print('''
 |                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
 |___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
           |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
- _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+ _________|___________| ;`-.o`"=._; ." ` '`."` . "-._ /_______________|_______
 |                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
 |___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
 ____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
@@ -21,28 +21,24 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.") 
-
-#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
-
-#Write your code below this line 👇
+print("Your mission is to find the treasure.")
 print("left or right?")
-p=input()
-if p=='left' :
- print("swim or wait?")
- q=input()
- if(q=='wait'):
-  print("which door-red ,blue or yellow? ")
-  r=input()
-  if(r=='red'):
-    print("burned by fire ! game over")
-  elif(r=='blue'):
-    print("eaten by beasts ! game over")
-  elif(r=='yellow'):
-    print("you win !")
-  else :
-    print("game over")
- else :
-  print("attecked by trout ! game over")
+p = input()
+if p == 'left':
+    print("swim or wait?")
+    q = input()
+    if q == 'wait':
+        print("which door-red ,blue or yellow? ")
+        r = input()
+        if r == 'red':
+            print("burned by fire ! game over")
+        elif r == 'blue':
+            print("eaten by beasts ! game over")
+        elif r == 'yellow':
+            print("you win !")
+        else:
+            print("game over")
+    else:
+        print("attecked by trout ! game over")
 else:
- print("fall tnto a hole ! game over")
+    print("fall tnto a hole ! game over")
